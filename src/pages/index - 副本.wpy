@@ -1,0 +1,37 @@
+<style lang="less">
+
+</style>
+<template>
+  <view class="container">
+    等等等等等
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Index extends wepy.page {
+    config = {
+      navigationBarTitleText: '瞪起来'
+    }
+    components = {
+
+    }
+
+    data = {
+      mynum: 20,
+    }
+
+    computed = {
+      now () {
+        return +new Date()
+      }
+    }
+
+    methods = {
+      link_game () {
+
+      }
+    }
+  }
+</script>
