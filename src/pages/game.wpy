@@ -4,6 +4,7 @@
 <template>
   <view class="container">
     等等等等等
+    {{now}}
   </view>
 </template>
 
